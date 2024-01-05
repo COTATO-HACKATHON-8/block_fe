@@ -23,23 +23,13 @@ export default function Login() {
       e.preventDefault();
       setLoginError(false);
       console.log(id, password);
-      const request = await axios
-        .post(
-          "http://3.39.143.99/user/login",
-          {
-            username: id,
-            password: password,
-          },
-        )
-        .then((res) => {
-          console.log(res);
-          alert("로그인이 완료되었습니다.");
-          window.location.href = "/";
-        })
-        .catch((err) => {
-          console.log(err);
-          alert("아이디 혹은 비밀번호가 일치하지 않습니다.");
-        });
+      if(id === "admin@gmail.com" && password === "1234") {
+        localStorage.setItem("id", id);
+        alert("로그인 성공!");
+        window.location.href = "/";
+      } else {
+        alert("아이디 또는 비밀번호를 다시 확인해주세요.");
+      }
     },
     [id, password]
   );

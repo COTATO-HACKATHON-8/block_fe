@@ -8,6 +8,18 @@ import "./styles.css";
 
 const mypage = () => {
   const blocks = Dummy.data;
+  // author가 동일한 blocks만 불러옴
+  const my_blocks = Dummy.data.filter((block) => block.author === "Tesla");
+  // category별로 블록 개수를 세어서 sample에 저장
+  const my_sample = my_blocks.reduce((acc, cur) => {
+    if (acc[cur.category]) {
+      acc[cur.category] += 1;
+    } else {
+      acc[cur.category] = 1;
+    }
+    return acc;
+  }, {});
+  console.log(my_sample);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedBlock, setSelectedBlock] = useState(null);
 
@@ -21,7 +33,7 @@ const mypage = () => {
     "#343a40",
     "#212529",
   ];
-  var samples = Object.keys(sample);
+  var samples = Object.keys(my_sample);
 
   const handleModalClose = () => {
     setIsModalOpen(false);
@@ -38,7 +50,9 @@ const mypage = () => {
             className="profile-image"
             src="https://velog.velcdn.com/images/ea_st_ring/profile/d4858ab6-c45e-43fd-9787-e94fed1f5862/image.jpg"
           />
-          <div className="profile-name">NAME</div>
+          <div className="profile-name">
+            <p>Tesla</p>
+          </div>
         </div>
         <div className="right">
           <p>프로필 수정</p>
@@ -51,7 +65,7 @@ const mypage = () => {
             // 조건에 따라 스타일 객체를 생성하는 함수
             const getStyle = () => {
               let style = {
-                width: `${sample[key] * 50}%`,
+                width: `${my_sample[key] * 50}%`,
                 backgroundColor: colors[index],
                 height: "40px",
                 textAlgign: "center",
@@ -87,13 +101,14 @@ const mypage = () => {
           글쓰기
         </div>
         <div className="block-grid">
-          {blocks.map((block) => (
+          {my_blocks.map((block) => (
             <Block
               key={block.id}
               author={block.author}
               title={block.title}
               content={block.content}
               category={block.category}
+              profileImageUrl="https://velog.velcdn.com/images/ea_st_ring/profile/d4858ab6-c45e-43fd-9787-e94fed1f5862/image.jpg"
               block={block}
               onClick={() => setSelectedBlock(block)}
               handleModalOpen={handleModalOpen}

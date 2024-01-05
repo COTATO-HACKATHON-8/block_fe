@@ -12,10 +12,7 @@ const main = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedBlock, setSelectedBlock] = useState(null);
   const [category, setCategory] = useState("전체");
-
-  const res = axios.get("http://3.39.143.99/blocks").then((res) => {
-    console.log(res);
-  });
+  // 초기 like는 1~100중 랜덤 생성
 
   const handleModalClose = () => {
     setIsModalOpen(false);

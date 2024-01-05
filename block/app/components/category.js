@@ -25,6 +25,7 @@ const category = (props) => {
     <div className="category-wrapper">
       {categories.map((category) => (
         <div
+          key={category}
           className="category-box"
           onClick={() => {
             setCategory(category);

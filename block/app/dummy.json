@@ -2,27 +2,31 @@
   "data": [
     {
       "id": "1",
-      "title": "테스트 제목입니다. 글줄임이 잘 되는지 확인해보겠습니다.",
-      "content": "테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. 테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. ",
-      "author": "테스트 작성자",
+      "imageUrl":"https://velog.velcdn.com/images/yoonlang/post/2df00207-a6cd-4eb4-8c91-470dc409f3fe/image.jpeg",
+      "title": "나, 만년인턴 프론트엔드 개발자의 2023년 회고록... 믿기 힘들지만 이게 내 삶의 이야기다!",
+      "content": "이브, 그리고 크리스마스.한 해를 마무리하며 회고하기 딱 좋은 날이다.올해는 정말 많은 일들이 있었고, 특히 커리어적으로 많은 성장을 했다. 네이버에서의 인턴과 몰로코 인턴. 23년을 돌아보며 이리저리 적어보도록 하겠다.",
+      "author": "GoDiva",
       "category": "운동"
     },
     {
       "id": "2",
-      "title": "테스트 제목입니다. 글줄임이 잘 되는지 확인해보겠습니다.",
+      "imageUrl":"https://velog.velcdn.com/images/velopert/post/67630333-e2ef-4299-970b-8cc0062d61a4/image.png",
+      "title": "2024 당근 전직군 공개채용",
       "content": "테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. 테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. ",
-      "author": "테스트 작성자",
+      "author": "Tesla",
       "category": "취미"
     },
     {
       "id": "3",
-      "title": "테스트 제목입니다. 글줄임이 잘 되는지 확인해보겠습니다.",
-      "content": "테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. 테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. ",
-      "author": "테스트 작성자",
+      "imageUrl":"https://velog.velcdn.com/images/sehyunny/post/9a074eca-4274-4f46-8970-62b73fa5243e/image.png",
+      "title": "우주의 신비",
+      "content": "짱신기함 ㄷㄷ 우주의 기원부터 신비까지",
+      "author": "Tesla",
       "category": "운동"
     },
     {
       "id": "4",
+      "imageUrl":"https://velog.velcdn.com/images/endmoseung/post/a10580e1-d480-4811-8bd6-f16c03169914/image.png",
       "title": "테스트 제목입니다. 글줄임이 잘 되는지 확인해보겠습니다.",
       "content": "테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. 테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. ",
       "author": "테스트 작성자",
@@ -30,31 +34,41 @@
     },
     {
       "id": "5",
-      "title": "테스트 제목입니다. 글줄임이 잘 되는지 확인해보겠습니다.",
-      "content": "테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. 테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. ",
-      "author": "테스트 작성자",
+      "imageUrl":"https://velog.velcdn.com/images/joshuara7235/post/d77381f7-390f-4846-a4a1-f537e13bcdcf/image.png",
+      "title": "이 사진이 무엇인지 아십니까?",
+      "content": "저도 잘은 모릅니다 ㅋㅋ ㅈㅅㅈㅅ",
+      "author": "Tesla",
       "category": "독서"
     },
     {
       "id": "6",
-      "title": "테스트 제목입니다. 글줄임이 잘 되는지 확인해보겠습니다.",
+      "imageUrl":"https://velog.velcdn.com/images/huise0ng/post/e223ea13-d3d5-47b5-bd1f-4bf212918a53/image.png",
+      "title": "그래도 나름 잘 살았나보다.",
       "content": "테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. 테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. ",
-      "author": "테스트 작성자",
-      "category": "여행"
+      "author": "Tesla",
+      "category": "공부"
     },
     {
       "id": "7",
+      "imageUrl":"https://velog.velcdn.com/images/pakxe/post/f478ae1a-1dc2-4095-aa26-57a7a8a7e04c/image.jpg",
       "title": "테스트 제목입니다. 글줄임이 잘 되는지 확인해보겠습니다.",
       "content": "테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. 테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. ",
-      "author": "테스트 작성자",
+      "author": "WebDev",
       "category": "여행"
     },
     {
       "id": "8",
+      "imageUrl":"https://velog.velcdn.com/images/eddy_song/post/c66ba499-1552-424d-bc6b-477e38c24ab2/image.jpeg",
       "title": "테스트 제목입니다. 글줄임이 잘 되는지 확인해보겠습니다.",
       "content": "테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. 테스트 내용입니다. 글줄임이 잘 되는지 확인해보겠습니다. ",
-      "author": "테스트 작성자",
+      "author": "Tester",
       "category": "여행"
     }
-  ]
+  ],
+  "user": {
+    "id": "1",
+    "name": "Tesla",
+    "profile":"https://velog.velcdn.com/images/ea_st_ring/profile/d4858ab6-c45e-43fd-9787-e94fed1f5862/image.jpg",
+    "email": "admin@gmail.com"
+  }
 }
