@@ -1,8 +1,10 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Block from "./components/block";
+import Main from "./components/main";
 
 export default function Home() {
   return (
-    <div>ㅎㅇ</div>
-  )
+    <>
+      <Main />
+    </>
+  );
 }
